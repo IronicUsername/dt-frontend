@@ -8,7 +8,7 @@ module.exports = {
         parser: 'babel-eslint'
     },
     rules: {
-        'quotes': ['error', 'single'],
+        'quotes': ['warn', 'single'],
         'no-whitespace-before-property': ['off'],
         'max-len': ['error', { code: 159, tabWidth: 4}],
         'no-console': process.env.NODE_ENV === 'production' ? 'error': 'off',

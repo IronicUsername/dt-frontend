@@ -1,0 +1,14 @@
+<footer id="footer-root">
+    <div class="site-data">
+        <span>{{new Date().getFullYear()}}_{{cUrl}} </span>
+    </div>
+    <div class="social-media">
+    </div>
+    <div class="footer-menu">
+        <ul>
+            <li v-for="(element, idx) in nav_elements" :value="element" :key="idx">
+                <router-link :to="`${element.link}`">{{element.title}}</router-link>
+            </li>
+        </ul>
+    </div>
+</footer>

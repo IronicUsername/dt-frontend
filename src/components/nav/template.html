@@ -1,0 +1,7 @@
+<nav id="nav-root">
+    <a v-for="(element, idx) in nav_elements" :value="element" :key="idx">
+        <font-awesome-icon :icon="[`${element.icon_type}`, `${element.icon_name}`]"/>
+        <router-link :to="`${element.link}`">{{element.title}}</router-link>
+    </a>
+    <router-view />
+</nav>
