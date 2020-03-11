@@ -2,10 +2,7 @@
 <style src="./style.styl" lang="stylus" scoped></style>
 
 <script>
-
 export default {
-  name: 'Home',
-    components: {
-    }
+    name: 'Home'
 };
 </script>

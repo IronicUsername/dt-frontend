@@ -10,6 +10,11 @@ const routes = [
     component: () => import('../views/home/Home.vue')
   },
   {
+    path: '/imprint',
+    name: 'Imprint',
+    component: () => import('../views/imprint/Imprint.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
