@@ -1,5 +1,5 @@
 <template src="./template.html"></template>
-<style scoped src="./style.css"></style>
+<style src="./style.styl" lang="stylus" scoped></style>
 <script>
 export default {
     name: 'Nav',
