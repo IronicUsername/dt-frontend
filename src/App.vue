@@ -1,5 +1,5 @@
 <template src="./templates/main.html"></template>
-<style lang="stylus" src="./assets/styles/style.styl"></style>
+<style lang="stylus" src="./assets/styles/style.styl" global></style>
 
 <script>
 import Nav from '@/components/nav/Nav.vue';
